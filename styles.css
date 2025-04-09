@@ -1,3 +1,7 @@
+/** Import a reset style sheet to reset different browser defaults */
+@import url("reset.css");
+
+/* General Formatting */
 body {
     margin: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -9,17 +13,22 @@ body {
         #df7580 20px
     );
 }
-.hero {
-    min-width: 100%;
-    color: salmon;
-}
-.hero img {
-    flex-shrink: 0;
-    min-width: 100%;
-}
+
+/* Hero Section */
 #welcome {
     font-family: Bangers, sans-serif;
 }
+
+/* Navbar Section */
+.navbar {
+    font-family: Bangers, san-serif;
+    display: inline-flex;
+}
+#chickenhead {
+    object-fit: contain;
+}
+
+/* Footer Section*/
 #footer {
     position: relative;
     color: white;
