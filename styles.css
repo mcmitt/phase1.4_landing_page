@@ -12,21 +12,17 @@ body {
         #df7580 10px,
         #df7580 20px
     );
+    /* border: blue 3px solid; */
 }
 
 /* Hero Section */
-/* header {
-    border: blue 3px solid;
-} */
 .welcome {
     font-family: Bangers, sans-serif;
-    /* border: yellow 2px solid; */
 }
 
 /* Navbar Section */
 .navbar {
     font-family: Bangers, san-serif;
-    /* border: green 2px solid; */
 }
 .navbar-brand {
     display: flex;
@@ -44,14 +40,20 @@ body {
 /* Main Section */
 main {
     font-family: Bangers, san-serif;
-    /* border: cyan 3px solid; */
 }
-.service-list, .about-text {
+.row {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 90%;
+    margin-left: 5%;
+    /* border: yellow, 1px, solid; */
+}
+.row img {
+    margin: 5px 20%;
+    width: 200px;
+    height: 120px;
 }
 .disclaimer {
-    font-size: xx-small;
+    font-size: x-small;
 }
 .divider {
     height: 2px;
@@ -60,9 +62,6 @@ main {
 }
 
 /* Footer Section*/
-/* footer {
-    border: blue 3px solid;
-} */
 .footer-text {
     font-family: "Dancing Script";
     position: absolute;
@@ -70,11 +69,10 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/* .footer-social .logo, .social-buttons {
-    border: blue 1px solid;
-} */
-.footer-social, .footer-trademark {
+.footer-social {
     display: flex;
+}
+.footer-social, .footer-trademark {
     font-family: Bangers, san-serif;
 }
 .social-buttons a {
