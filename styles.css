@@ -15,12 +15,19 @@ body {
 }
 
 /* Hero Section */
-#welcome { font-family: Bangers, sans-serif; }
-.welcome-chicken { overflow: hidden; }
+/* header {
+    border: blue 3px solid;
+} */
+.welcome {
+    font-family: Bangers, sans-serif;
+    /* border: yellow 2px solid; */
+}
 
 /* Navbar Section */
-.navbar { font-family: Bangers, san-serif; }
-#chickenhead { object-fit: contain; }
+.navbar {
+    font-family: Bangers, san-serif;
+    /* border: green 2px solid; */
+}
 .navbar-brand {
     display: flex;
     justify-content: space-evenly;
@@ -37,50 +44,49 @@ body {
 /* Main Section */
 main {
     font-family: Bangers, san-serif;
-    border: blue 1px solid;
+    /* border: cyan 3px solid; */
 }
 .service-list, .about-text {
-    /* position: relative; */
-    /* top: 0px; */
-    /* left: 10%; */
-    /* width: 80%; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* font-size: medium; */
-    /* border: blue 1px solid; */
+    width: 90%;
 }
-.disclaimer { font-size: xx-small; }
+.disclaimer {
+    font-size: xx-small;
+}
 .divider {
     height: 2px;
-    width: 90%;
-    background: linear-gradient(90deg, white, #dc3545, white);
-}
-.row {
-    /* border: blue 1px dashed; */
-}
-.col {
-    border: green 1px solid;
+    width: 100%;
+    background: linear-gradient(90deg, white, white, #dc3545, white, white);
 }
 
 /* Footer Section*/
+/* footer {
+    border: blue 3px solid;
+} */
 .footer-text {
     font-family: "Dancing Script";
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -130%);
-    overflow: hidden;
+    transform: translate(-50%, -50%);
 }
-.footer-social { font-family: Bangers, san-serif; }
-.social-buttons a { color: #dc3545; }
-.social-buttons a:hover { color: gold; }
+/* .footer-social .logo, .social-buttons {
+    border: blue 1px solid;
+} */
+.footer-social, .footer-trademark {
+    display: flex;
+    font-family: Bangers, san-serif;
+}
+.social-buttons a {
+    color: #dc3545;
+}
+.social-buttons a:hover {
+    color: gold;
+}
 
 /** Using media queries allows for responsive design */
-@media (max-width: 575px) {
-    .footer-text {
-        transform: translate(-50%, -340%);
-    }
+@media (max-width: 500px) {
     .footer-social {
         display: block;
-        text-align: center;
     }
 }
