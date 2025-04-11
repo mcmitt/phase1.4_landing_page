@@ -29,19 +29,24 @@
                     </div>
                 </div>
             </section>
-            <nav class="navbar navbar-expand-sm bg-light navbar-danger justify-content-around">
-                <a href="#" class="navbar-brand text-danger fs-2"></a>
-                <div class="navbar-nav text-dark d-block d-md-inline-flex">
-                    <a href="#" class="navbar-item nav-link-active" aria-current="page">menu!</a>
-                    <a href="#services" class="navbar-item">services!</a>
-                    <a href="#about" class="navbar-item">about us!</a>
-                    <a href="#social" class="navbar-item">engage us!</a>
-                </div>
-            </nav>
         </header>
-        <main class="bg-light">
+        <nav class="navbar sticky-top top-0 start-0 bg-light d-flex justify-content-around">
+            <div class="ltbrand navbar-brand d-flex">
+                <img src="images/chicken-transparent.png" alt="chicken-transparent" width="30px">
+                <span class="text-danger fs-5">Little<br>Things</span>
+            </div>
+            <div class="ltmenu">
+                <div class="navbar-nav d-flex flex-row">
+                    <a class="navbar-item nav-link m-1" href="menu.html" aria-current="page">menu!</a>
+                    <a class="navbar-item nav-link m-1" href="#services">our services!</a>
+                    <a class="navbar-item nav-link m-1" href="#about">about us!</a>
+                    <a class="navbar-item nav-link m-1" href="#social">engage us!</a>
+                </div>
+            </div>
             <div class="divider text-align-center"></div>
-            <section class="services bg-light text-dark pt-3 pb-3">
+        </nav>
+        <main class="bg-light">
+            <section id="services" class="services bg-light text-dark pt-3 pb-3">
                 <div class="text-danger text-center fs-2">Our Services</div>
                 <div class="service-list pt-1">
                     <div class="row pb-2">
@@ -134,7 +139,7 @@
                         <span class="fs-6 text-dark"><p>Chicken & Wings</p></span>
                     </div>
                 </div>
-                <div class="social-buttons d-flex fs-1 text-nowrap  justify-content-center pt-4">
+                <div id="social" class="social-buttons d-flex fs-1 text-nowrap  justify-content-center pt-4">
                     Engage Us!
                     <a href="#" role="button"><i class="bi bi-envelope-at-fill ps-4 pe-2"></i></a>
                     <a href="#" role="button"><i class="bi bi-facebook pe-2"></i></a>

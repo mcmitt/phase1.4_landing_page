@@ -5,6 +5,7 @@
 body {
     margin: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #212529;
     background: repeating-linear-gradient(
         30deg,
         white,
@@ -24,17 +25,13 @@ body {
 .navbar {
     font-family: Bangers, san-serif;
 }
-.navbar-brand {
-    display: flex;
-    justify-content: space-evenly;
-}
-.navbar-nav {
-    display: flex;
-    justify-content: space-around;
-}
 .navbar-item {
-    color: #df7580;
+    font-size: calc(1em + 1vw);
+    color: #dc3545;
     text-decoration: none;
+}
+.navbar-item:hover {
+    color: #212529;
 }
 
 /* Main Section */
@@ -45,7 +42,6 @@ main {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 90%;
     margin-left: 5%;
-    /* border: yellow, 1px, solid; */
 }
 .row img {
     margin: 5px 20%;
@@ -58,7 +54,7 @@ main {
 .divider {
     height: 2px;
     width: 100%;
-    background: linear-gradient(90deg, white, white, #dc3545, white, white);
+    background: linear-gradient(90deg, white, #dc3545, white);
 }
 
 /* Footer Section*/
@@ -79,7 +75,7 @@ main {
     color: #dc3545;
 }
 .social-buttons a:hover {
-    color: gold;
+    color: goldenrod;
 }
 
 /** Using media queries allows for responsive design */
